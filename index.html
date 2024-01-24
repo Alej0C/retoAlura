@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Encriptador/Desencriptador</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <header>
+        <h1>Encriptador/Desencriptador</h1>
+    </header>
+
+    <div class="container">
+        <label for="inputText">Texto:</label>
+        <textarea id="inputText" placeholder="Ingresa tu texto"></textarea>
+
+        <button type="submit" onclick="encriptar()">Encriptar</button>
+        <button type="submit" onclick="desencriptar()">Desencriptar</button>
+
+        <label for="outputText">Resultado:</label>
+        <div class="output-container">
+            <textarea id="outputText" readonly></textarea>
+            <button type="submit" onclick="copiarTexto()">Copiar</button>
+        </div>
+    </div>
+
+    <footer>
+        <p>Desarrollado por Hans Alejadro Calderón Afanador</p>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
